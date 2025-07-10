@@ -2,17 +2,17 @@
 
 ## 📑Table of Contents
 
-1. [Project Overview](project-overview)  
-2. [Problem Statement](problem-statement)  
-3. [Dataset Overview](dataset-overview)  
-4. [Objective](objective)  
-5. [Data Cleaning and Modeling](data-cleaning-and-modeling)  
-6. [Tools Used](tools-used)  
-7. [Customer and Product Dashboard Analysis](customer-and-product-dashboard-analysis)  
-8. [Geography and Time Series Dashboard](geography-and-time-series-dashboard)  
-9. [Methodology](methodology)  
-10. [Findings and Analysis](findings-and-analysis)  
-11. [Recommendations](recommendations)
+ [Project Overview](#project-overview)  
+ [Problem Statement](#problem-statement)  
+ [Dataset Overview](#dataset-overview)  
+ [Objective](#objective)  
+ [Data Cleaning and Modeling](#data-cleaning-and-modeling)  
+ [Tools Used](#tools-used)  
+ [Customer and Product Dashboard Analysis](#customer-and-product-dashboard-analysis)  
+ [Geography and Time Series Dashboard](#geography-and-time-series-dashboard)  
+ [Methodology](#methodology)  
+ [Findings and Analysis](#findings-and-analysis)  
+ [Recommendations](#recommendations)
 
 
 
@@ -21,21 +21,21 @@
 This project presents a deep dive into vehicle sales data using Excel. The goal is to create an interactive report that helps stakeholders understand revenue distribution, top-performing products and customers, regional performance, and time-based sales trends — all aimed at driving better decision-making.
 
 
-## 2. 📌 Problem Statement
+## Problem Statement
 
 With hundreds of products sold across various countries and territories, there is a need to analyze the vehicle sales data to uncover patterns in customer purchasing behavior, product demand, and regional performance. This project helps business teams to identify high-value customers, optimize inventory, and enhance sales strategies.
 
 
-## 3. 📂 Dataset Overview
+## Dataset Overview
 
-- **File**: `Vehicle Sales Project.xlsx`  
+- **File**: Vehicle Sales Project.xlsx  
 - **Source**: Simulated real-world dataset  
 - **Records**: ~1,200+ rows  
 - **Columns**: 24 columns  
 - **Key Fields**: Product Category, Quantity Sold, Revenue, Deal Size, Product Code, Year, Month, Territory, Country, Customer Name
 
 
-## 4. 🎯 Objective
+## Objective
 
 - Identify top-selling products and customer revenue contributions  
 - Measure performance by region, deal size, and product category  
@@ -43,13 +43,13 @@ With hundreds of products sold across various countries and territories, there i
 - Use dashboards to communicate insights visually
 
 
-## 5. 🧹 Data Cleaning and Modeling
+## Data Cleaning and Modeling
 
 - Removed unnecessary columns (e.g., Address Line 2)  
 - Renamed columns for clarity  
 - Filled missing values:  
-  - `State` → "Unknown"  
-  - `Postal Code` → "00000"  
+  - State → "Unknown"  
+  - Postal Code → "00000"  
 - Removed duplicates  
 - Built 4 core tables:  
   - **Fact Table**: Vehicle Sales  
@@ -58,7 +58,7 @@ With hundreds of products sold across various countries and territories, there i
   - **Dim Geography**
 
 
-## 6. 🛠 Tools Used
+## Tools Used
 
 - Microsoft Excel  
 - Power Pivot  
@@ -69,7 +69,7 @@ With hundreds of products sold across various countries and territories, there i
 - Map Visualization
 
 
-## 7. 👥 Customer and Product Dashboard Analysis
+## Customer and Product Dashboard Analysis
 
 **Key Insights:**
 - **Top Customer**: Euro Shopping Channel ($236,798.17)  
@@ -83,7 +83,7 @@ With hundreds of products sold across various countries and territories, there i
 ![Screenshot 2025-07-09 123917](https://github.com/user-attachments/assets/44bf7c14-5b2b-458d-b122-9c56c4cf8fc9)
 
 
-## 8. 🌍 Geography and Time Series Dashboard
+## Geography and Time Series Dashboard
 
 **Key Insights:**
 - **Top Country**: USA ($3,627,982.83)  
@@ -97,7 +97,7 @@ With hundreds of products sold across various countries and territories, there i
 ![Screenshot 2025-07-09 123946](https://github.com/user-attachments/assets/c9fce6ab-08fa-4ce8-905b-3b66bd2f57a9)
 
 
-## 9. 🧪 Methodology
+## Methodology
 
 - Loaded raw dataset into Excel and cleaned using Power Query  
 - Modeled data into star schema for dashboard optimization  
@@ -106,7 +106,7 @@ With hundreds of products sold across various countries and territories, there i
 - Used filters, slicers, and charts for interactivity and storytelling
 
 
-## 10. 📈 Findings and Analysis
+## Findings and Analysis
 
 - A few product categories and customers contribute most of the revenue  
 - Medium-sized deals generated the highest value  
@@ -115,7 +115,7 @@ With hundreds of products sold across various countries and territories, there i
 - Classic Cars and Vintage Cars are the most popular by revenue
 
 
-## 11. ✔️ Recommendations
+## Recommendations
 
 - Prioritize inventory for top-selling products (e.g., Classic Cars)  
 - Focus marketing and sales efforts on the EMEA territory  
