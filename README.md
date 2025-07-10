@@ -1,7 +1,6 @@
 # 🚘 Vehicle Sales Analysis Project
 
 ## 📑Table of Contents
-
  [Project Overview](#project-overview)  
  [Problem Statement](#problem-statement)  
  [Dataset Overview](#dataset-overview)  
