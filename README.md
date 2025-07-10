@@ -1,6 +1,6 @@
 # 🚘 Vehicle Sales Analysis Project
 
-## 📑 Table of Contents
+## 📑Table of Contents
 
 1. [Project Overview](project-overview)  
 2. [Problem Statement](problem-statement)  
@@ -15,7 +15,7 @@
 11. [Recommendations](recommendations)
 
 
-## 1. 📊 Project Overview
+## Project Overview
 
 This project presents a deep dive into vehicle sales data using Excel. The goal is to create an interactive report that helps stakeholders understand revenue distribution, top-performing products and customers, regional performance, and time-based sales trends — all aimed at driving better decision-making.
 
