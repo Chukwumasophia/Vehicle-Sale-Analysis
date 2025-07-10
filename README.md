@@ -15,6 +15,7 @@
 11. [Recommendations](recommendations)
 
 
+
 ## Project Overview
 
 This project presents a deep dive into vehicle sales data using Excel. The goal is to create an interactive report that helps stakeholders understand revenue distribution, top-performing products and customers, regional performance, and time-based sales trends — all aimed at driving better decision-making.
